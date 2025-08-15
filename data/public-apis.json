@@ -1,0 +1,2254 @@
+{
+  "apis": [
+    {
+      "name": "AdoptAPet",
+      "endpoint": "https://www.adoptapet.com/public/apis/pet_list.html",
+      "method": "GET",
+      "description": "Resource to help get pets adopted",
+      "parameters": [],
+      "example_request": "https://www.adoptapet.com/public/apis/pet_list.html?key=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Axolotl",
+      "endpoint": "https://theaxolotlapi.netlify.app/",
+      "method": "GET",
+      "description": "Collection of axolotl pictures and facts",
+      "parameters": [],
+      "example_request": "https://theaxolotlapi.netlify.app/",
+      "example_response": null
+    },
+    {
+      "name": "Cat Facts",
+      "endpoint": "https://alexwohlbruck.github.io/cat-facts/",
+      "method": "GET",
+      "description": "Daily cat facts",
+      "parameters": [],
+      "example_request": "https://alexwohlbruck.github.io/cat-facts/",
+      "example_response": null
+    },
+    {
+      "name": "Cataas",
+      "endpoint": "https://cataas.com/",
+      "method": "GET",
+      "description": "Cat as a service (cats pictures and gifs)",
+      "parameters": [],
+      "example_request": "https://cataas.com/cat",
+      "example_response": null
+    },
+    {
+      "name": "Cats",
+      "endpoint": "https://docs.thecatapi.com/",
+      "method": "GET",
+      "description": "Pictures of cats from Tumblr",
+      "parameters": [],
+      "example_request": "https://api.thecatapi.com/v1/images/search",
+      "example_response": null
+    },
+    {
+      "name": "Dog Facts (1)",
+      "endpoint": "https://dukengn.github.io/Dog-facts-API/",
+      "method": "GET",
+      "description": "Random dog facts",
+      "parameters": [],
+      "example_request": "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1",
+      "example_response": null
+    },
+    {
+      "name": "Dog Facts (2)",
+      "endpoint": "https://kinduff.github.io/dog-api/",
+      "method": "GET",
+      "description": "Random facts of Dogs",
+      "parameters": [],
+      "example_request": "https://dog-api.kinduff.com/api/facts",
+      "example_response": null
+    },
+    {
+      "name": "Dogs",
+      "endpoint": "https://dog.ceo/dog-api/",
+      "method": "GET",
+      "description": "Based on the Stanford Dogs Dataset",
+      "parameters": [],
+      "example_request": "https://dog.ceo/api/breeds/list/all",
+      "example_response": null
+    },
+    {
+      "name": "eBird",
+      "endpoint": "https://documenter.getpostman.com/view/664302/S1ENwy59",
+      "method": "GET",
+      "description": "Retrieve recent or notable birding observations within a region",
+      "parameters": [],
+      "example_request": "https://api.ebird.org/v2/data/obs/US-NY/recent",
+      "example_response": null
+    },
+    {
+      "name": "FishWatch",
+      "endpoint": "https://www.fishwatch.gov/developers",
+      "method": "GET",
+      "description": "Information and pictures about individual fish species",
+      "parameters": [],
+      "example_request": "https://www.fishwatch.gov/api/species",
+      "example_response": null
+    },
+    {
+      "name": "HTTP Cat",
+      "endpoint": "https://http.cat/",
+      "method": "GET",
+      "description": "Cat for every HTTP Status",
+      "parameters": [],
+      "example_request": "https://http.cat/200",
+      "example_response": null
+    },
+    {
+      "name": "HTTP Dog",
+      "endpoint": "https://http.dog/",
+      "method": "GET",
+      "description": "Dogs for every HTTP response status code",
+      "parameters": [],
+      "example_request": "https://http.dog/200.jpg",
+      "example_response": null
+    },
+    {
+      "name": "IUCN",
+      "endpoint": "http://apiv3.iucnredlist.org/api/v3/docs",
+      "method": "GET",
+      "description": "IUCN Red List of Threatened Species",
+      "parameters": [],
+      "example_request": "http://apiv3.iucnredlist.org/api/v3/species/page/1?token=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "MeowFacts",
+      "endpoint": "https://github.com/wh-iterabb-it/meowfacts",
+      "method": "GET",
+      "description": "Get random cat facts",
+      "parameters": [],
+      "example_request": "https://meowfacts.herokuapp.com/",
+      "example_response": null
+    },
+    {
+      "name": "Movebank",
+      "endpoint": "https://github.com/movebank/movebank-api-doc",
+      "method": "GET",
+      "description": "Movement and Migration data of animals",
+      "parameters": [],
+      "example_request": "https://www.movebank.org/movebank/rest/json/study/12345",
+      "example_response": null
+    },
+    {
+      "name": "Petfinder",
+      "endpoint": "https://www.petfinder.com/developers/",
+      "method": "GET",
+      "description": "Petfinder is dedicated to helping pets find homes, another resource to get pets adopted",
+      "parameters": [],
+      "example_request": "https://api.petfinder.com/v2/animals",
+      "example_response": null
+    },
+    {
+      "name": "PlaceBear",
+      "endpoint": "https://placebear.com/",
+      "method": "GET",
+      "description": "Placeholder bear pictures",
+      "parameters": [],
+      "example_request": "https://placebear.com/200/300",
+      "example_response": null
+    },
+    {
+      "name": "PlaceDog",
+      "endpoint": "https://place.dog",
+      "method": "GET",
+      "description": "Placeholder Dog pictures",
+      "parameters": [],
+      "example_request": "https://place.dog/200/300",
+      "example_response": null
+    },
+    {
+      "name": "PlaceKitten",
+      "endpoint": "https://placekitten.com/",
+      "method": "GET",
+      "description": "Placeholder Kitten pictures",
+      "parameters": [],
+      "example_request": "https://placekitten.com/200/300",
+      "example_response": null
+    },
+    {
+      "name": "RandomDog",
+      "endpoint": "https://random.dog/woof.json",
+      "method": "GET",
+      "description": "Random pictures of dogs",
+      "parameters": [],
+      "example_request": "https://random.dog/woof.json",
+      "example_response": null
+    },
+    {
+      "name": "RandomDuck",
+      "endpoint": "https://random-d.uk/api",
+      "method": "GET",
+      "description": "Random pictures of ducks",
+      "parameters": [],
+      "example_request": "https://random-d.uk/api/v2/random",
+      "example_response": null
+    },
+    {
+      "name": "RandomFox",
+      "endpoint": "https://randomfox.ca/floof/",
+      "method": "GET",
+      "description": "Random pictures of foxes",
+      "parameters": [],
+      "example_request": "https://randomfox.ca/floof/",
+      "example_response": null
+    },
+    {
+      "name": "RescueGroups",
+      "endpoint": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
+      "method": "GET",
+      "description": "Adoption",
+      "parameters": [],
+      "example_request": "https://api.rescuegroups.org/http/v2.5/json",
+      "example_response": null
+    },
+    {
+      "name": "Shibe.Online",
+      "endpoint": "http://shibe.online/",
+      "method": "GET",
+      "description": "Random pictures of Shiba Inu, cats or birds",
+      "parameters": [],
+      "example_request": "http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true",
+      "example_response": null
+    },
+    {
+      "name": "The Dog",
+      "endpoint": "https://thedogapi.com/",
+      "method": "GET",
+      "description": "A public service all about Dogs, free to use when making your fancy new App, Website or Service",
+      "parameters": [],
+      "example_request": "https://api.thedogapi.com/v1/images/search",
+      "example_response": null
+    },
+    {
+      "name": "xeno-canto",
+      "endpoint": "https://xeno-canto.org/explore/api",
+      "method": "GET",
+      "description": "Bird recordings",
+      "parameters": [],
+      "example_request": "https://www.xeno-canto.org/api/2/recordings?query=cnt:brazil",
+      "example_response": null
+    },
+    {
+      "name": "Zoo Animals",
+      "endpoint": "https://zoo-animal-api.herokuapp.com/",
+      "method": "GET",
+      "description": "Facts and pictures of zoo animals",
+      "parameters": [],
+      "example_request": "https://zoo-animal-api.herokuapp.com/animals/rand",
+      "example_response": null
+    },
+    {
+      "name": "AniAPI",
+      "endpoint": "https://aniapi.com/docs/",
+      "method": "GET",
+      "description": "Anime discovery, streaming & syncing with trackers",
+      "parameters": [],
+      "example_request": "https://aniapi.com/v1/anime/1",
+      "example_response": null
+    },
+    {
+      "name": "AniDB",
+      "endpoint": "https://wiki.anidb.net/HTTP_API_Definition",
+      "method": "GET",
+      "description": "Anime Database",
+      "parameters": [],
+      "example_request": "http://api.anidb.net:9001/httpapi?request=anime&aid=1",
+      "example_response": null
+    },
+    {
+      "name": "AniList",
+      "endpoint": "https://github.com/AniList/ApiV2-GraphQL-Docs",
+      "method": "POST",
+      "description": "Anime discovery & tracking",
+      "parameters": [],
+      "example_request": "https://graphql.anilist.co",
+      "example_response": null
+    },
+    {
+      "name": "AnimeChan",
+      "endpoint": "https://github.com/RocktimSaikia/anime-chan",
+      "method": "GET",
+      "description": "Anime quotes (over 10k+)",
+      "parameters": [],
+      "example_request": "https://animechan.vercel.app/api/quotes/anime?title=naruto",
+      "example_response": null
+    },
+    {
+      "name": "AnimeFacts",
+      "endpoint": "https://chandan-02.github.io/anime-facts-rest-api/",
+      "method": "GET",
+      "description": "Anime Facts (over 100+)",
+      "parameters": [],
+      "example_request": "https://anime-facts-rest-api.herokuapp.com/api/v1/dragon_ball_z",
+      "example_response": null
+    },
+    {
+      "name": "AnimeNewsNetwork",
+      "endpoint": "https://www.animenewsnetwork.com/encyclopedia/api.php",
+      "method": "GET",
+      "description": "Anime industry news",
+      "parameters": [],
+      "example_request": "https://www.animenewsnetwork.com/encyclopedia/api.xml",
+      "example_response": null
+    },
+    {
+      "name": "Catboy",
+      "endpoint": "https://catboys.com/api",
+      "method": "GET",
+      "description": "Neko images, funny GIFs & more",
+      "parameters": [],
+      "example_request": "https://api.catboys.com/img",
+      "example_response": null
+    },
+    {
+      "name": "Danbooru Anime",
+      "endpoint": "https://danbooru.donmai.us/wiki_pages/help:api",
+      "method": "GET",
+      "description": "Thousands of anime artist database to find good anime art",
+      "parameters": [],
+      "example_request": "https://danbooru.donmai.us/posts.json?tags=rating:safe",
+      "example_response": null
+    },
+    {
+      "name": "Jikan",
+      "endpoint": "https://jikan.moe",
+      "method": "GET",
+      "description": "Unofficial MyAnimeList API",
+      "parameters": [],
+      "example_request": "https://api.jikan.moe/v4/anime/1",
+      "example_response": null
+    },
+    {
+      "name": "Kitsu",
+      "endpoint": "https://kitsu.docs.apiary.io/",
+      "method": "GET",
+      "description": "Anime discovery platform",
+      "parameters": [],
+      "example_request": "https://kitsu.io/api/edge/anime",
+      "example_response": null
+    },
+    {
+      "name": "MangaDex",
+      "endpoint": "https://api.mangadex.org/docs.html",
+      "method": "GET",
+      "description": "Manga Database and Community",
+      "parameters": [],
+      "example_request": "https://api.mangadex.org/manga",
+      "example_response": null
+    },
+    {
+      "name": "Mangapi",
+      "endpoint": "https://rapidapi.com/pierre.carcellermeunier/api/mangapi3/",
+      "method": "GET",
+      "description": "Translate manga pages from one language to another",
+      "parameters": [],
+      "example_request": "https://mangapi3.p.rapidapi.com/manga/12345/page/1",
+      "example_response": null
+    },
+    {
+      "name": "MyAnimeList",
+      "endpoint": "https://myanimelist.net/clubs.php?cid=13727",
+      "method": "GET",
+      "description": "Anime and Manga Database and Community",
+      "parameters": [],
+      "example_request": "https://api.myanimelist.net/v2/anime",
+      "example_response": null
+    },
+    {
+      "name": "NekosBest",
+      "endpoint": "https://docs.nekos.best",
+      "method": "GET",
+      "description": "Neko Images & Anime roleplaying GIFs",
+      "parameters": [],
+      "example_request": "https://nekos.best/api/v2/neko",
+      "example_response": null
+    },
+    {
+      "name": "Shikimori",
+      "endpoint": "https://shikimori.one/api/doc",
+      "method": "GET",
+      "description": "Anime discovery, tracking, forum, rates",
+      "parameters": [],
+      "example_request": "https://shikimori.one/api/animes/1",
+      "example_response": null
+    },
+    {
+      "name": "Studio Ghibli",
+      "endpoint": "https://ghibliapi.herokuapp.com",
+      "method": "GET",
+      "description": "Resources from Studio Ghibli films",
+      "parameters": [],
+      "example_request": "https://ghibliapi.herokuapp.com/films",
+      "example_response": null
+    },
+    {
+      "name": "Trace Moe",
+      "endpoint": "https://soruly.github.io/trace.moe-api/#/",
+      "method": "GET",
+      "description": "A useful tool to get the exact scene of an anime from a screenshot",
+      "parameters": [],
+      "example_request": "https://api.trace.moe/search?url=https://cdn.trace.moe/some/image.jpg",
+      "example_response": null
+    },
+    {
+      "name": "Waifu.im",
+      "endpoint": "https://waifu.im/docs",
+      "method": "GET",
+      "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
+      "parameters": [],
+      "example_request": "https://api.waifu.im/search",
+      "example_response": null
+    },
+    {
+      "name": "Waifu.pics",
+      "endpoint": "https://waifu.pics/docs",
+      "method": "GET",
+      "description": "Image sharing platform for anime images",
+      "parameters": [],
+      "example_request": "https://api.waifu.pics/sfw/waifu",
+      "example_response": null
+    },
+    {
+      "name": "AbuseIPDB",
+      "endpoint": "https://docs.abuseipdb.com/",
+      "method": "GET",
+      "description": "IP/domain/URL reputation",
+      "parameters": [],
+      "example_request": "https://api.abuseipdb.com/api/v2/check?ipAddress=8.8.8.8",
+      "example_response": null
+    },
+    {
+      "name": "AlienVault Open Threat Exchange (OTX)",
+      "endpoint": "https://otx.alienvault.com/api",
+      "method": "GET",
+      "description": "IP/domain/URL reputation",
+      "parameters": [],
+      "example_request": "https://otx.alienvault.com/api/v1/indicators/IPv4/8.8.8.8/general",
+      "example_response": null
+    },
+    {
+      "name": "CAPEsandbox",
+      "endpoint": "https://capev2.readthedocs.io/en/latest/usage/api.html",
+      "method": "POST",
+      "description": "Malware execution and analysis",
+      "parameters": [],
+      "example_request": "https://cape.sandbox.com/api/v2/tasks/create/file",
+      "example_response": null
+    },
+    {
+      "name": "Google Safe Browsing",
+      "endpoint": "https://developers.google.com/safe-browsing/",
+      "method": "POST",
+      "description": "Google Link/Domain Flagging",
+      "parameters": [],
+      "example_request": "https://safebrowsing.googleapis.com/v4/threatMatches:find",
+      "example_response": null
+    },
+    {
+      "name": "MalDatabase",
+      "endpoint": "https://maldatabase.com/api-doc.html",
+      "method": "GET",
+      "description": "Provide malware datasets and threat intelligence feeds",
+      "parameters": [],
+      "example_request": "https://maldatabase.com/api/v1/search?query=malware",
+      "example_response": null
+    },
+    {
+      "name": "MalShare",
+      "endpoint": "https://malshare.com/doc.php",
+      "method": "GET",
+      "description": "Malware Archive / file sourcing",
+      "parameters": [],
+      "example_request": "https://malshare.com/api.php?api_key=<API_KEY>&action=getlist",
+      "example_response": null
+    },
+    {
+      "name": "MalwareBazaar",
+      "endpoint": "https://bazaar.abuse.ch/api/",
+      "method": "POST",
+      "description": "Collect and share malware samples",
+      "parameters": [],
+      "example_request": "https://bazaar.abuse.ch/api/v1/",
+      "example_response": null
+    },
+    {
+      "name": "Metacert",
+      "endpoint": "https://metacert.com/",
+      "method": "POST",
+      "description": "Metacert Link Flagging",
+      "parameters": [],
+      "example_request": "https://api.metacert.com/v1/url/scan",
+      "example_response": null
+    },
+    {
+      "name": "NoPhishy",
+      "endpoint": "https://rapidapi.com/Amiichu/api/exerra-phishing-check/",
+      "method": "GET",
+      "description": "Check links to see if they're known phishing attempts",
+      "parameters": [],
+      "example_request": "https://exerra-phishing-check.p.rapidapi.com/url/example.com",
+      "example_response": null
+    },
+    {
+      "name": "Phisherman",
+      "endpoint": "https://phisherman.gg/",
+      "method": "GET",
+      "description": "IP/domain/URL reputation",
+      "parameters": [],
+      "example_request": "https://api.phisherman.gg/v2/domains/check/example.com",
+      "example_response": null
+    },
+    {
+      "name": "Scanii",
+      "endpoint": "https://docs.scanii.com/",
+      "method": "POST",
+      "description": "Simple REST API that can scan submitted documents/files for the presence of threats",
+      "parameters": [],
+      "example_request": "https://api.scanii.com/v2/files",
+      "example_response": null
+    },
+    {
+      "name": "URLhaus",
+      "endpoint": "https://urlhaus-api.abuse.ch/",
+      "method": "POST",
+      "description": "Bulk queries and Download Malware Samples",
+      "parameters": [],
+      "example_request": "https://urlhaus.abuse.ch/api/",
+      "example_response": null
+    },
+    {
+      "name": "URLScan.io",
+      "endpoint": "https://urlscan.io/about-api/",
+      "method": "POST",
+      "description": "Scan and Analyse URLs",
+      "parameters": [],
+      "example_request": "https://urlscan.io/api/v1/scan",
+      "example_response": null
+    },
+    {
+      "name": "VirusTotal",
+      "endpoint": "https://www.virustotal.com/en/documentation/public-api/",
+      "method": "GET",
+      "description": "VirusTotal File/URL Analysis",
+      "parameters": [],
+      "example_request": "https://www.virustotal.com/api/v3/files/<FILE_ID>",
+      "example_response": null
+    },
+    {
+      "name": "Web of Trust",
+      "endpoint": "https://support.mywot.com/hc/en-us/sections/360004477734-API-",
+      "method": "GET",
+      "description": "IP/domain/URL reputation",
+      "parameters": [],
+      "example_request": "https://api.mywot.com/v2/trust?url=google.com",
+      "example_response": null
+    },
+    {
+      "name": "Améthyste",
+      "endpoint": "https://api.amethyste.moe/",
+      "method": "POST",
+      "description": "Generate images for Discord users",
+      "parameters": [],
+      "example_request": "https://api.amethyste.moe/generate",
+      "example_response": null
+    },
+    {
+      "name": "Art Institute of Chicago",
+      "endpoint": "https://api.artic.edu/docs/",
+      "method": "GET",
+      "description": "Art",
+      "parameters": [],
+      "example_request": "https://api.artic.edu/api/v1/artworks",
+      "example_response": null
+    },
+    {
+      "name": "Colormind",
+      "endpoint": "http://colormind.io/api-access/",
+      "method": "POST",
+      "description": "Color scheme generator",
+      "parameters": [],
+      "example_request": "http://colormind.io/api/",
+      "example_response": null
+    },
+    {
+      "name": "ColourLovers",
+      "endpoint": "http://www.colourlovers.com/api",
+      "method": "GET",
+      "description": "Get various patterns, palettes and images",
+      "parameters": [],
+      "example_request": "http://www.colourlovers.com/api/colors/top",
+      "example_response": null
+    },
+    {
+      "name": "Cooper Hewitt",
+      "endpoint": "https://collection.cooperhewitt.org/api",
+      "method": "GET",
+      "description": "Smithsonian Design Museum",
+      "parameters": [],
+      "example_request": "https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.get&access_token=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Dribbble",
+      "endpoint": "https://developer.dribbble.com",
+      "method": "GET",
+      "description": "Discover the world’s top designers & creatives",
+      "parameters": [],
+      "example_request": "https://api.dribbble.com/v2/shots",
+      "example_response": null
+    },
+    {
+      "name": "EmojiHub",
+      "endpoint": "https://github.com/cheatsnake/emojihub",
+      "method": "GET",
+      "description": "Get emojis by categories and groups",
+      "parameters": [],
+      "example_request": "https://emojihub.yurace.pro/api/all",
+      "example_response": null
+    },
+    {
+      "name": "Europeana",
+      "endpoint": "https://pro.europeana.eu/resources/apis/search",
+      "method": "GET",
+      "description": "European Museum and Galleries content",
+      "parameters": [],
+      "example_request": "https://api.europeana.eu/record/v2/search.json?query=dogs",
+      "example_response": null
+    },
+    {
+      "name": "Harvard Art Museums",
+      "endpoint": "https://github.com/harvardartmuseums/api-docs",
+      "method": "GET",
+      "description": "Art",
+      "parameters": [],
+      "example_request": "https://api.harvardartmuseums.org/object?apikey=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Icon Horse",
+      "endpoint": "https://icon.horse",
+      "method": "GET",
+      "description": "Favicons for any website, with fallbacks",
+      "parameters": [],
+      "example_request": "https://icon.horse/icon/google.com",
+      "example_response": null
+    },
+    {
+      "name": "Iconfinder",
+      "endpoint": "https://developer.iconfinder.com",
+      "method": "GET",
+      "description": "Icons",
+      "parameters": [],
+      "example_request": "https://api.iconfinder.com/v2/icons/search?query=cat",
+      "example_response": null
+    },
+    {
+      "name": "Icons8",
+      "endpoint": "https://img.icons8.com/",
+      "method": "GET",
+      "description": "Icons (find \"search icon\" hyperlink in page)",
+      "parameters": [],
+      "example_request": "https://img.icons8.com/color/48/000000/icons8.png",
+      "example_response": null
+    },
+    {
+      "name": "Lordicon",
+      "endpoint": "https://lordicon.com/",
+      "method": "GET",
+      "description": "Icons with predone Animations",
+      "parameters": [],
+      "example_request": "https://cdn.lordicon.com/bgrjmjjs.json",
+      "example_response": null
+    },
+    {
+      "name": "Metropolitan Museum of Art",
+      "endpoint": "https://metmuseum.github.io/",
+      "method": "GET",
+      "description": "Met Museum of Art",
+      "parameters": [],
+      "example_request": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436532",
+      "example_response": null
+    },
+    {
+      "name": "Noun Project",
+      "endpoint": "http://api.thenounproject.com/index.html",
+      "method": "GET",
+      "description": "Icons",
+      "parameters": [],
+      "example_request": "http://api.thenounproject.com/v2/icons?query=cat",
+      "example_response": null
+    },
+    {
+      "name": "PHP-Noise",
+      "endpoint": "https://php-noise.com/",
+      "method": "GET",
+      "description": "Noise Background Image Generator",
+      "parameters": [],
+      "example_request": "https://php-noise.com/noise.jpg?hex=ff0000",
+      "example_response": null
+    },
+    {
+      "name": "Pixel Encounter",
+      "endpoint": "https://pixelencounter.com/api",
+      "method": "GET",
+      "description": "SVG Icon Generator",
+      "parameters": [],
+      "example_request": "https://pixelencounter.com/api/v2/basic",
+      "example_response": null
+    },
+    {
+      "name": "Rijksmuseum",
+      "endpoint": "https://data.rijksmuseum.nl/object-metadata/api/",
+      "method": "GET",
+      "description": "RijksMuseum Data",
+      "parameters": [],
+      "example_request": "https://www.rijksmuseum.nl/api/en/collection?key=<API_KEY>&q=rembrandt",
+      "example_response": null
+    },
+    {
+      "name": "Word Cloud",
+      "endpoint": "https://wordcloudapi.com/",
+      "method": "GET",
+      "description": "Easily create word clouds",
+      "parameters": [],
+      "example_request": "https://wordcloudapi.com/v1/api/cloud?text=example",
+      "example_response": null
+    },
+    {
+      "name": "xColors",
+      "endpoint": "https://x-colors.herokuapp.com/",
+      "method": "GET",
+      "description": "Generate & convert colors",
+      "parameters": [],
+      "example_request": "https://x-colors.herokuapp.com/api/random",
+      "example_response": null
+    },
+    {
+      "name": "Auth0",
+      "endpoint": "https://auth0.com",
+      "method": "POST",
+      "description": "Easy to implement, adaptable authentication and authorization platform",
+      "parameters": [],
+      "example_request": "https://your-domain.auth0.com/oauth/token",
+      "example_response": null
+    },
+    {
+      "name": "GetOTP",
+      "endpoint": "https://otp.dev/en/docs/",
+      "method": "POST",
+      "description": "Implement OTP flow quickly",
+      "parameters": [],
+      "example_request": "https://otp.dev/api/v1/otp",
+      "example_response": null
+    },
+    {
+      "name": "Micro User Service",
+      "endpoint": "https://m3o.com/user",
+      "method": "POST",
+      "description": "User management and authentication",
+      "parameters": [],
+      "example_request": "https://api.m3o.com/v1/user/create",
+      "example_response": null
+    },
+    {
+      "name": "MojoAuth",
+      "endpoint": "https://mojoauth.com",
+      "method": "POST",
+      "description": "Secure and modern passwordless authentication platform",
+      "parameters": [],
+      "example_request": "https://api.mojoauth.com/token",
+      "example_response": null
+    },
+    {
+      "name": "SAWO Labs",
+      "endpoint": "https://sawolabs.com",
+      "method": "POST",
+      "description": "Simplify login and improve user experience by integrating passwordless authentication in your app",
+      "parameters": [],
+      "example_request": "https://api.sawolabs.com/api/v1/auth",
+      "example_response": null
+    },
+    {
+      "name": "Stytch",
+      "endpoint": "https://stytch.com/",
+      "method": "POST",
+      "description": "User infrastructure for modern applications",
+      "parameters": [],
+      "example_request": "https://api.stytch.com/v1/otps/sms/send",
+      "example_response": null
+    },
+    {
+      "name": "Warrant",
+      "endpoint": "https://warrant.dev/",
+      "method": "POST",
+      "description": "APIs for authorization and access control",
+      "parameters": [],
+      "example_request": "https://api.warrant.dev/v1/warrants",
+      "example_response": null
+    },
+    {
+      "name": "Bitquery",
+      "endpoint": "https://graphql.bitquery.io/ide",
+      "method": "POST",
+      "description": "Onchain GraphQL APIs & DEX APIs",
+      "parameters": [],
+      "example_request": "https://graphql.bitquery.io",
+      "example_response": null
+    },
+    {
+      "name": "Chainlink",
+      "endpoint": "https://chain.link/developer-resources",
+      "method": "GET",
+      "description": "Build hybrid smart contracts with Chainlink",
+      "parameters": [],
+      "example_request": "https://api.chain.link/v1/prices",
+      "example_response": null
+    },
+    {
+      "name": "Chainpoint",
+      "endpoint": "https://tierion.com/chainpoint/",
+      "method": "POST",
+      "description": "Chainpoint is a global network for anchoring data to the Bitcoin blockchain",
+      "parameters": [],
+      "example_request": "https://chainpoint.org/api/v1/anchors",
+      "example_response": null
+    },
+    {
+      "name": "Covalent",
+      "endpoint": "https://www.covalenthq.com/docs/api/",
+      "method": "GET",
+      "description": "Multi-blockchain data aggregator platform",
+      "parameters": [],
+      "example_request": "https://api.covalenthq.com/v1/1/address/<ADDRESS>/balances_v2",
+      "example_response": null
+    },
+    {
+      "name": "Etherscan",
+      "endpoint": "https://etherscan.io/apis",
+      "method": "GET",
+      "description": "Ethereum explorer API",
+      "parameters": [],
+      "example_request": "https://api.etherscan.io/api?module=account&action=balance&address=<ADDRESS>&tag=latest&apikey=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Helium",
+      "endpoint": "https://docs.helium.com/api/blockchain/introduction/",
+      "method": "GET",
+      "description": "Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage",
+      "parameters": [],
+      "example_request": "https://api.helium.io/v1/hotspots",
+      "example_response": null
+    },
+    {
+      "name": "Nownodes",
+      "endpoint": "https://nownodes.io/",
+      "method": "POST",
+      "description": "Blockchain-as-a-service solution that provides high-quality connection via API",
+      "parameters": [],
+      "example_request": "https://nownodes.io/api/v1/rpc",
+      "example_response": null
+    },
+    {
+      "name": "Steem",
+      "endpoint": "https://developers.steem.io/",
+      "method": "GET",
+      "description": "Blockchain-based blogging and social media website",
+      "parameters": [],
+      "example_request": "https://api.steemit.com/get_accounts?names[]=<USERNAME>",
+      "example_response": null
+    },
+    {
+      "name": "The Graph",
+      "endpoint": "https://thegraph.com",
+      "method": "POST",
+      "description": "Indexing protocol for querying networks like Ethereum with GraphQL",
+      "parameters": [],
+      "example_request": "https://api.thegraph.com/subgraphs/name/graphprotocol/uniswap",
+      "example_response": null
+    },
+    {
+      "name": "Walltime",
+      "endpoint": "https://walltime.info/api.html",
+      "method": "GET",
+      "description": "To retrieve Walltime's market info",
+      "parameters": [],
+      "example_request": "https://walltime.info/api/v1/exchange_rates",
+      "example_response": null
+    },
+    {
+      "name": "Watchdata",
+      "endpoint": "https://docs.watchdata.io",
+      "method": "POST",
+      "description": "Provide simple and reliable API access to Ethereum blockchain",
+      "parameters": [],
+      "example_request": "https://api.watchdata.io/v1/addresses/<ADDRESS>",
+      "example_response": null
+    },
+    {
+      "name": "A Bíblia Digital",
+      "endpoint": "https://www.abibliadigital.com.br/en",
+      "method": "GET",
+      "description": "Do not worry about managing the multiple versions of the Bible",
+      "parameters": [],
+      "example_request": "https://www.abibliadigital.com.br/api/verses/nvi/sl/23",
+      "example_response": null
+    },
+    {
+      "name": "Bhagavad Gita (1)",
+      "endpoint": "https://docs.bhagavadgitaapi.in",
+      "method": "GET",
+      "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
+      "parameters": [],
+      "example_request": "https://bhagavadgitaapi.in/v2/chapters/1/shlokas/1",
+      "example_response": null
+    },
+    {
+      "name": "Bhagavad Gita (2)",
+      "endpoint": "https://bhagavadgita.io/api",
+      "method": "GET",
+      "description": "Bhagavad Gita text",
+      "parameters": [],
+      "example_request": "https://bhagavadgita.io/chapter/1/verse/1",
+      "example_response": null
+    },
+    {
+      "name": "Bhagavad Gita telugu",
+      "endpoint": "https://gita-api.vercel.app",
+      "method": "GET",
+      "description": "Bhagavad Gita API in telugu and odia languages",
+      "parameters": [],
+      "example_request": "https://gita-api.vercel.app/api/v1/verses/1/1",
+      "example_response": null
+    },
+    {
+      "name": "Bible-api",
+      "endpoint": "https://bible-api.com/",
+      "method": "GET",
+      "description": "Free Bible API with multiple languages",
+      "parameters": [],
+      "example_request": "https://bible-api.com/john%203:16",
+      "example_response": null
+    },
+    {
+      "name": "British National Bibliography",
+      "endpoint": "http://bnb.data.bl.uk/",
+      "method": "GET",
+      "description": "Books",
+      "parameters": [],
+      "example_request": "http://bnb.data.bl.uk/sparql?query=select+*+where+{+?s+a+<http://purl.org/dc/terms/BibliographicResource>+}+limit+10",
+      "example_response": null
+    },
+    {
+      "name": "Crossref Metadata Search",
+      "endpoint": "https://github.com/CrossRef/rest-api-doc",
+      "method": "GET",
+      "description": "Books & Articles Metadata",
+      "parameters": [],
+      "example_request": "https://api.crossref.org/works?query=science",
+      "example_response": null
+    },
+    {
+      "name": "Ganjoor",
+      "endpoint": "https://api.ganjoor.net",
+      "method": "GET",
+      "description": "Classic Persian poetry works including access to related manuscripts, recitations and music tracks",
+      "parameters": [],
+      "example_request": "https://api.ganjoor.net/api/ganjoor/poets",
+      "example_response": null
+    },
+    {
+      "name": "Google Books",
+      "endpoint": "https://developers.google.com/books/",
+      "method": "GET",
+      "description": "Books",
+      "parameters": [],
+      "example_request": "https://www.googleapis.com/books/v1/volumes?q=harry+potter",
+      "example_response": null
+    },
+    {
+      "name": "GurbaniNow",
+      "endpoint": "https://github.com/GurbaniNow/api",
+      "method": "GET",
+      "description": "Fast and Accurate Gurbani RESTful API",
+      "parameters": [],
+      "example_request": "https://api.gurbaninow.com/v2/shabad",
+      "example_response": null
+    },
+    {
+      "name": "Gutendex",
+      "endpoint": "https://gutendex.com/",
+      "method": "GET",
+      "description": "Web-API for fetching data from Project Gutenberg Books Library",
+      "parameters": [],
+      "example_request": "https://gutendex.com/books/?search=dostoyevsky",
+      "example_response": null
+    },
+    {
+      "name": "Open Library",
+      "endpoint": "https://openlibrary.org/developers/api",
+      "method": "GET",
+      "description": "Books, book covers and related data",
+      "parameters": [],
+      "example_request": "https://openlibrary.org/search.json?q=the+lord+of+the+rings",
+      "example_response": null
+    },
+    {
+      "name": "Penguin Publishing",
+      "endpoint": "http://www.penguinrandomhouse.biz/webservices/rest/",
+      "method": "GET",
+      "description": "Books, book covers and related data",
+      "parameters": [],
+      "example_request": "http://api.penguinrandomhouse.com/resources/v2/title/domains/PRH.US/search?author=Stephen+King",
+      "example_response": null
+    },
+    {
+      "name": "PoetryDB",
+      "endpoint": "https://github.com/thundercomb/poetrydb#readme",
+      "method": "GET",
+      "description": "Enables you to get instant data from our vast poetry collection",
+      "parameters": [],
+      "example_request": "https://poetrydb.org/author/Emily Dickinson",
+      "example_response": null
+    },
+    {
+      "name": "Quran",
+      "endpoint": "https://quran.api-docs.io/",
+      "method": "GET",
+      "description": "RESTful Quran API with multiple languages",
+      "parameters": [],
+      "example_request": "https://api.quran.com/api/v4/verses/by_key/1:1",
+      "example_response": null
+    },
+    {
+      "name": "Quran Cloud",
+      "endpoint": "https://alquran.cloud/api",
+      "method": "GET",
+      "description": "A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran",
+      "parameters": [],
+      "example_request": "https://api.alquran.cloud/v1/ayah/2:282/en.asad",
+      "example_response": null
+    },
+    {
+      "name": "Quran-api",
+      "endpoint": "https://github.com/fawazahmed0/quran-api#readme",
+      "method": "GET",
+      "description": "Free Quran API Service with 90+ different languages and 400+ translations",
+      "parameters": [],
+      "example_request": "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/meta/chapters.json",
+      "example_response": null
+    },
+    {
+      "name": "Rig Veda",
+      "endpoint": "https://aninditabasu.github.io/indica/html/rv.html",
+      "method": "GET",
+      "description": "Gods and poets, their categories, and the verse meters, with the mandal and sukta number",
+      "parameters": [],
+      "example_request": "https://aninditabasu.github.io/indica/rv/hymn/01.001.01.json",
+      "example_response": null
+    },
+    {
+      "name": "The Bible",
+      "endpoint": "https://docs.api.bible",
+      "method": "GET",
+      "description": "Everything you need from the Bible in one discoverable place",
+      "parameters": [],
+      "example_request": "https://api.scripture.api.bible/v1/bibles",
+      "example_response": null
+    },
+    {
+      "name": "Thirukkural",
+      "endpoint": "https://api-thirukkural.web.app/",
+      "method": "GET",
+      "description": "1330 Thirukkural poems and explanation in Tamil and English",
+      "parameters": [],
+      "example_request": "https://api-thirukkural.web.app/api/thirukkural/1",
+      "example_response": null
+    },
+    {
+      "name": "Vedic Society",
+      "endpoint": "https://aninditabasu.github.io/indica/html/vs.html",
+      "method": "GET",
+      "description": "Descriptions of all nouns (names, places, animals, things) from vedic literature",
+      "parameters": [],
+      "example_request": "https://aninditabasu.github.io/indica/vs/nouns/names.json",
+      "example_response": null
+    },
+    {
+      "name": "Wizard World",
+      "endpoint": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+      "method": "GET",
+      "description": "Get information from the Harry Potter universe",
+      "parameters": [],
+      "example_request": "https://wizard-world-api.herokuapp.com/houses",
+      "example_response": null
+    },
+    {
+      "name": "Wolne Lektury",
+      "endpoint": "https://wolnelektury.pl/api/",
+      "method": "GET",
+      "description": "API for obtaining information about e-books available on the WolneLektury.pl website",
+      "parameters": [],
+      "example_request": "https://wolnelektury.pl/api/books/",
+      "example_response": null
+    },
+    {
+      "name": "Apache Superset",
+      "endpoint": "https://superset.apache.org/docs/api",
+      "method": "GET",
+      "description": "API to manage your BI dashboards and data sources on Superset",
+      "parameters": [],
+      "example_request": "https://superset.example.com/api/v1/dashboard/",
+      "example_response": null
+    },
+    {
+      "name": "Charity Search",
+      "endpoint": "http://charityapi.orghunter.com/",
+      "method": "GET",
+      "description": "Non-profit charity data",
+      "parameters": [],
+      "example_request": "http://api.orghunter.com/v1/charitysearch?user_key=<API_KEY>&q=red+cross",
+      "example_response": null
+    },
+    {
+      "name": "Clearbit Logo",
+      "endpoint": "https://clearbit.com/docs#logo-api",
+      "method": "GET",
+      "description": "Search for company logos and embed them in your projects",
+      "parameters": [],
+      "example_request": "https://logo.clearbit.com/google.com",
+      "example_response": null
+    },
+    {
+      "name": "Domainsdb.info",
+      "endpoint": "https://domainsdb.info/",
+      "method": "GET",
+      "description": "Registered Domain Names Search",
+      "parameters": [],
+      "example_request": "https://domainsdb.info/api/v1/search?domain=google.com",
+      "example_response": null
+    },
+    {
+      "name": "Freelancer",
+      "endpoint": "https://developers.freelancer.com",
+      "method": "GET",
+      "description": "Hire freelancers to get work done",
+      "parameters": [],
+      "example_request": "https://www.freelancer.com/api/projects/v2/projects",
+      "example_response": null
+    },
+    {
+      "name": "Gmail",
+      "endpoint": "https://developers.google.com/gmail/api/",
+      "method": "GET",
+      "description": "Flexible, RESTful access to the user's inbox",
+      "parameters": [],
+      "example_request": "https://www.googleapis.com/gmail/v1/users/me/messages",
+      "example_response": null
+    },
+    {
+      "name": "Google Analytics",
+      "endpoint": "https://developers.google.com/analytics/",
+      "method": "GET",
+      "description": "Collect, configure and analyze your data to reach the right audience",
+      "parameters": [],
+      "example_request": "https://analyticsreporting.googleapis.com/v4/reports:batchGet",
+      "example_response": null
+    },
+    {
+      "name": "Instatus",
+      "endpoint": "https://instatus.com/help/api",
+      "method": "POST",
+      "description": "Post to and update maintenance and incidents on your status page through an HTTP REST API",
+      "parameters": [],
+      "example_request": "https://instatus.com/api/v1/pages/<PAGE_ID>/incidents",
+      "example_response": null
+    },
+    {
+      "name": "Mailchimp",
+      "endpoint": "https://mailchimp.com/developer/",
+      "method": "POST",
+      "description": "Send marketing campaigns and transactional mails",
+      "parameters": [],
+      "example_request": "https://<dc>.api.mailchimp.com/3.0/campaigns",
+      "example_response": null
+    },
+    {
+      "name": "mailjet",
+      "endpoint": "https://www.mailjet.com/",
+      "method": "POST",
+      "description": "Marketing email can be sent and mail templates made in MJML or HTML can be sent using API",
+      "parameters": [],
+      "example_request": "https://api.mailjet.com/v3.1/send",
+      "example_response": null
+    },
+    {
+      "name": "markerapi",
+      "endpoint": "https://markerapi.com",
+      "method": "GET",
+      "description": "Trademark Search",
+      "parameters": [],
+      "example_request": "https://markerapi.com/v1/search?q=apple",
+      "example_response": null
+    },
+    {
+      "name": "ORB Intelligence",
+      "endpoint": "https://api.orb-intelligence.com/docs/",
+      "method": "GET",
+      "description": "Company lookup",
+      "parameters": [],
+      "example_request": "https://api.orb-intelligence.com/3/company/search?domain=google.com",
+      "example_response": null
+    },
+    {
+      "name": "Redash",
+      "endpoint": "https://redash.io/help/user-guide/integrations-and-api/api",
+      "method": "GET",
+      "description": "Access your queries and dashboards on Redash",
+      "parameters": [],
+      "example_request": "https://redash.example.com/api/queries",
+      "example_response": null
+    },
+    {
+      "name": "Smartsheet",
+      "endpoint": "https://smartsheet.redoc.ly/",
+      "method": "GET",
+      "description": "Allows you to programmatically access and Smartsheet data and account information",
+      "parameters": [],
+      "example_request": "https://api.smartsheet.com/2.0/sheets",
+      "example_response": null
+    },
+    {
+      "name": "Square",
+      "endpoint": "https://developer.squareup.com/reference/square",
+      "method": "POST",
+      "description": "Easy way to take payments, manage refunds, and help customers checkout online",
+      "parameters": [],
+      "example_request": "https://connect.squareupsandbox.com/v2/payments",
+      "example_response": null
+    },
+    {
+      "name": "SwiftKanban",
+      "endpoint": "https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services/#restapi",
+      "method": "GET",
+      "description": "Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity",
+      "parameters": [],
+      "example_request": "https://swiftkanban.example.com/kanban/api/v1/users",
+      "example_response": null
+    },
+    {
+      "name": "Tenders in Hungary",
+      "endpoint": "https://tenders.guru/hu/api",
+      "method": "GET",
+      "description": "Get data for procurements in Hungary in JSON format",
+      "parameters": [],
+      "example_request": "https://tenders.guru/hu/api/v1/tenders",
+      "example_response": null
+    },
+    {
+      "name": "Tenders in Poland",
+      "endpoint": "https://tenders.guru/pl/api",
+      "method": "GET",
+      "description": "Get data for procurements in Poland in JSON format",
+      "parameters": [],
+      "example_request": "https://tenders.guru/pl/api/v1/tenders",
+      "example_response": null
+    },
+    {
+      "name": "Tenders in Romania",
+      "endpoint": "https://tenders.guru/ro/api",
+      "method": "GET",
+      "description": "Get data for procurements in Romania in JSON format",
+      "parameters": [],
+      "example_request": "https://tenders.guru/ro/api/v1/tenders",
+      "example_response": null
+    },
+    {
+      "name": "Tenders in Spain",
+      "endpoint": "https://tenders.guru/es/api",
+      "method": "GET",
+      "description": "Get data for procurements in Spain in JSON format",
+      "parameters": [],
+      "example_request": "https://tenders.guru/es/api/v1/tenders",
+      "example_response": null
+    },
+    {
+      "name": "Tenders in Ukraine",
+      "endpoint": "https://tenders.guru/ua/api",
+      "method": "GET",
+      "description": "Get data for procurements in Ukraine in JSON format",
+      "parameters": [],
+      "example_request": "https://tenders.guru/ua/api/v1/tenders",
+      "example_response": null
+    },
+    {
+      "name": "Tomba email finder",
+      "endpoint": "https://tomba.io/api",
+      "method": "GET",
+      "description": "Email Finder for B2B sales and email marketing and email verifier",
+      "parameters": [],
+      "example_request": "https://api.tomba.io/v1/email-finder?domain=google.com&full_name=john+doe",
+      "example_response": null
+    },
+    {
+      "name": "Trello",
+      "endpoint": "https://developers.trello.com/",
+      "method": "GET",
+      "description": "Boards, lists and cards to help you organize and prioritize your projects",
+      "parameters": [],
+      "example_request": "https://api.trello.com/1/boards/<BOARD_ID>",
+      "example_response": null
+    },
+    {
+      "name": "Public Holidays",
+      "endpoint": "https://www.abstractapi.com/holidays-api",
+      "method": "GET",
+      "description": "Data on national, regional, and religious holidays via API",
+      "parameters": [],
+      "example_request": "https://holidays.abstractapi.com/v1/?api_key=<API_KEY>&country=US&year=2023",
+      "example_response": null
+    },
+    {
+      "name": "Calendarific",
+      "endpoint": "https://calendarific.com/",
+      "method": "GET",
+      "description": "Worldwide Holidays",
+      "parameters": [],
+      "example_request": "https://calendarific.com/api/v2/holidays?api_key=<API_KEY>&country=US&year=2023",
+      "example_response": null
+    },
+    {
+      "name": "Checkiday - National Holiday API",
+      "endpoint": "https://apilayer.com/marketplace/checkiday-api",
+      "method": "GET",
+      "description": "Industry-leading Holiday API. Over 5,000 holidays and thousands of descriptions. Trusted by the World’s leading companies",
+      "parameters": [],
+      "example_request": "https://api.apilayer.com/checkiday/today?apikey=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Church Calendar",
+      "endpoint": "http://calapi.inadiutorium.cz/",
+      "method": "GET",
+      "description": "Catholic liturgical calendar",
+      "parameters": [],
+      "example_request": "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-roman-1960/2023/1/1",
+      "example_response": null
+    },
+    {
+      "name": "Czech Namedays Calendar",
+      "endpoint": "https://svatky.adresa.info",
+      "method": "GET",
+      "description": "Lookup for a name and returns nameday date",
+      "parameters": [],
+      "example_request": "https://svatky.adresa.info/nameday-api/json/nameday",
+      "example_response": null
+    },
+    {
+      "name": "Festivo Public Holidays",
+      "endpoint": "https://docs.getfestivo.com/docs/products/public-holidays-api/intro",
+      "method": "GET",
+      "description": "Fastest and most advanced public holiday and observance service on the market",
+      "parameters": [],
+      "example_request": "https://api.getfestivo.com/v1/holidays?api_key=<API_KEY>&country=US&year=2023",
+      "example_response": null
+    },
+    {
+      "name": "Google Calendar",
+      "endpoint": "https://developers.google.com/google-apps/calendar/",
+      "method": "GET",
+      "description": "Display, create and modify Google calendar events",
+      "parameters": [],
+      "example_request": "https://www.googleapis.com/calendar/v3/calendars/primary/events",
+      "example_response": null
+    },
+    {
+      "name": "Hebrew Calendar",
+      "endpoint": "https://www.hebcal.com/home/developer-apis",
+      "method": "GET",
+      "description": "Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc",
+      "parameters": [],
+      "example_request": "https://www.hebcal.com/converter?cfg=json&gy=2023&gm=1&gd=1&g2h=1",
+      "example_response": null
+    },
+    {
+      "name": "Holidays",
+      "endpoint": "https://holidayapi.com/",
+      "method": "GET",
+      "description": "Historical data regarding holidays",
+      "parameters": [],
+      "example_request": "https://holidayapi.com/v1/holidays?pretty&key=<API_KEY>&country=US&year=2023",
+      "example_response": null
+    },
+    {
+      "name": "LectServe",
+      "endpoint": "http://www.lectserve.com",
+      "method": "GET",
+      "description": "Protestant liturgical calendar",
+      "parameters": [],
+      "example_request": "http://www.lectserve.com/api/v1/lectServe",
+      "example_response": null
+    },
+    {
+      "name": "Nager.Date",
+      "endpoint": "https://date.nager.at",
+      "method": "GET",
+      "description": "Public holidays for more than 90 countries",
+      "parameters": [],
+      "example_request": "https://date.nager.at/api/v3/PublicHolidays/2023/US",
+      "example_response": null
+    },
+    {
+      "name": "Namedays Calendar",
+      "endpoint": "https://nameday.abalin.net",
+      "method": "GET",
+      "description": "Provides namedays for multiple countries",
+      "parameters": [],
+      "example_request": "https://nameday.abalin.net/api/V1/today?country=us",
+      "example_response": null
+    },
+    {
+      "name": "Non-Working Days (1)",
+      "endpoint": "https://github.com/gadael/icsdb",
+      "method": "GET",
+      "description": "Database of ICS files for non working days",
+      "parameters": [],
+      "example_request": "https://icsdb.org/api/v1/holidays/US/2023",
+      "example_response": null
+    },
+    {
+      "name": "Non-Working Days (2)",
+      "endpoint": "https://isdayoff.ru",
+      "method": "GET",
+      "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
+      "parameters": [],
+      "example_request": "https://isdayoff.ru/20230101",
+      "example_response": null
+    },
+    {
+      "name": "Russian Calendar",
+      "endpoint": "https://github.com/egno/work-calendar",
+      "method": "GET",
+      "description": "Check if a date is a Russian holiday or not",
+      "parameters": [],
+      "example_request": "https://api.work-calendar.ru/v1/calendar/2023",
+      "example_response": null
+    },
+    {
+      "name": "UK Bank Holidays",
+      "endpoint": "https://www.gov.uk/bank-holidays.json",
+      "method": "GET",
+      "description": "Bank holidays in England and Wales, Scotland and Northern Ireland",
+      "parameters": [],
+      "example_request": "https://www.gov.uk/bank-holidays.json",
+      "example_response": null
+    },
+    {
+      "name": "AnonFiles",
+      "endpoint": "https://anonfiles.com/docs/api",
+      "method": "POST",
+      "description": "Upload and share your files anonymously",
+      "parameters": [],
+      "example_request": "https://anonfiles.com/api/upload",
+      "example_response": null
+    },
+    {
+      "name": "BayFiles",
+      "endpoint": "https://bayfiles.com/docs/api",
+      "method": "POST",
+      "description": "Upload and share your files",
+      "parameters": [],
+      "example_request": "https://bayfiles.com/api/upload",
+      "example_response": null
+    },
+    {
+      "name": "Box",
+      "endpoint": "https://developer.box.com/",
+      "method": "POST",
+      "description": "File Sharing and Storage",
+      "parameters": [],
+      "example_request": "https://api.box.com/2.0/files/content",
+      "example_response": null
+    },
+    {
+      "name": "ddownload",
+      "endpoint": "https://ddownload.com/api",
+      "method": "POST",
+      "description": "File Sharing and Storage",
+      "parameters": [],
+      "example_request": "https://ddownload.com/api",
+      "example_response": null
+    },
+    {
+      "name": "Dropbox",
+      "endpoint": "https://www.dropbox.com/developers",
+      "method": "POST",
+      "description": "File Sharing and Storage",
+      "parameters": [],
+      "example_request": "https://api.dropboxapi.com/2/files/list_folder",
+      "example_response": null
+    },
+    {
+      "name": "File.io",
+      "endpoint": "https://www.file.io",
+      "method": "POST",
+      "description": "Super simple file sharing, convenient, anonymous and secure",
+      "parameters": [],
+      "example_request": "https://file.io/?expires=1w",
+      "example_response": null
+    },
+    {
+      "name": "Filestack",
+      "endpoint": "https://www.filestack.com",
+      "method": "POST",
+      "description": "Filestack File Uploader & File Upload API",
+      "parameters": [],
+      "example_request": "https://www.filestackapi.com/api/store/S3",
+      "example_response": null
+    },
+    {
+      "name": "GoFile",
+      "endpoint": "https://gofile.io/api",
+      "method": "POST",
+      "description": "Unlimited size file uploads for free",
+      "parameters": [],
+      "example_request": "https://api.gofile.io/uploadFile",
+      "example_response": null
+    },
+    {
+      "name": "Google Drive",
+      "endpoint": "https://developers.google.com/drive/",
+      "method": "GET",
+      "description": "File Sharing and Storage",
+      "parameters": [],
+      "example_request": "https://www.googleapis.com/drive/v3/files",
+      "example_response": null
+    },
+    {
+      "name": "Gyazo",
+      "endpoint": "https://gyazo.com/api/docs",
+      "method": "POST",
+      "description": "Save & Share screen captures instantly",
+      "parameters": [],
+      "example_request": "https://upload.gyazo.com/api/upload",
+      "example_response": null
+    },
+    {
+      "name": "Imgbb",
+      "endpoint": "https://api.imgbb.com/",
+      "method": "POST",
+      "description": "Simple and quick private image sharing",
+      "parameters": [],
+      "example_request": "https://api.imgbb.com/1/upload",
+      "example_response": null
+    },
+    {
+      "name": "OneDrive",
+      "endpoint": "https://developer.microsoft.com/onedrive",
+      "method": "GET",
+      "description": "File Sharing and Storage",
+      "parameters": [],
+      "example_request": "https://graph.microsoft.com/v1.0/me/drive/root/children",
+      "example_response": null
+    },
+    {
+      "name": "Pantry",
+      "endpoint": "https://getpantry.cloud/",
+      "method": "GET",
+      "description": "Free JSON storage for small projects",
+      "parameters": [],
+      "example_request": "https://getpantry.cloud/pantry/<PANTRY_ID>/baskets/<BASKET_ID>",
+      "example_response": null
+    },
+    {
+      "name": "Pastebin",
+      "endpoint": "https://pastebin.com/doc_api",
+      "method": "POST",
+      "description": "Plain Text Storage",
+      "parameters": [],
+      "example_request": "https://pastebin.com/api/api_post.php",
+      "example_response": null
+    },
+    {
+      "name": "Pinata",
+      "endpoint": "https://docs.pinata.cloud/",
+      "method": "POST",
+      "description": "IPFS Pinning Services API",
+      "parameters": [],
+      "example_request": "https://api.pinata.cloud/pinning/pinFileToIPFS",
+      "example_response": null
+    },
+    {
+      "name": "Quip",
+      "endpoint": "https://quip.com/dev/automation/documentation",
+      "method": "GET",
+      "description": "File Sharing and Storage for groups",
+      "parameters": [],
+      "example_request": "https://platform.quip.com/1/threads/recent",
+      "example_response": null
+    },
+    {
+      "name": "Storj",
+      "endpoint": "https://docs.storj.io/dcs/",
+      "method": "GET",
+      "description": "Decentralized Open-Source Cloud Storage",
+      "parameters": [],
+      "example_request": "https://api.storj.io",
+      "example_response": null
+    },
+    {
+      "name": "The Null Pointer",
+      "endpoint": "https://0x0.st",
+      "method": "POST",
+      "description": "No-bullshit file hosting and URL shortening service",
+      "parameters": [],
+      "example_request": "https://0x0.st",
+      "example_response": null
+    },
+    {
+      "name": "Web3 Storage",
+      "endpoint": "https://web3.storage/",
+      "method": "POST",
+      "description": "File Sharing and Storage for Free with 1TB Space",
+      "parameters": [],
+      "example_request": "https://api.web3.storage/upload",
+      "example_response": null
+    },
+    {
+      "name": "Azure DevOps Health",
+      "endpoint": "https://docs.microsoft.com/en-us/rest/api/resourcehealth",
+      "method": "GET",
+      "description": "Resource health helps you diagnose and get support when an Azure issue impacts your resources",
+      "parameters": [],
+      "example_request": "https://management.azure.com/providers/Microsoft.ResourceHealth/resourceTypes",
+      "example_response": null
+    },
+    {
+      "name": "Bitrise",
+      "endpoint": "https://api-docs.bitrise.io/",
+      "method": "GET",
+      "description": "Build tool and processes integrations to create efficient development pipelines",
+      "parameters": [],
+      "example_request": "https://api.bitrise.io/v0.1/apps",
+      "example_response": null
+    },
+    {
+      "name": "Buddy",
+      "endpoint": "https://buddy.works/docs/api/getting-started/overview",
+      "method": "GET",
+      "description": "The fastest continuous integration and continuous delivery platform",
+      "parameters": [],
+      "example_request": "https://api.buddy.works/api/v1/projects",
+      "example_response": null
+    },
+    {
+      "name": "CircleCI",
+      "endpoint": "https://circleci.com/docs/api/v1-reference/",
+      "method": "GET",
+      "description": "Automate the software development process using continuous integration and continuous delivery",
+      "parameters": [],
+      "example_request": "https://circleci.com/api/v1.1/projects",
+      "example_response": null
+    },
+    {
+      "name": "Codeship",
+      "endpoint": "https://docs.cloudbees.com/docs/cloudbees-codeship/latest/api-overview/",
+      "method": "GET",
+      "description": "Codeship is a Continuous Integration Platform in the cloud",
+      "parameters": [],
+      "example_request": "https://api.codeship.com/v2/organizations",
+      "example_response": null
+    },
+    {
+      "name": "Travis CI",
+      "endpoint": "https://docs.travis-ci.com/api/",
+      "method": "GET",
+      "description": "Sync your GitHub projects with Travis CI to test your code in minutes",
+      "parameters": [],
+      "example_request": "https://api.travis-ci.com/v3/repos",
+      "example_response": null
+    },
+    {
+      "name": "0x",
+      "endpoint": "https://0x.org/api",
+      "method": "GET",
+      "description": "API for querying token and pool stats across various liquidity pools",
+      "parameters": [],
+      "example_request": "https://api.0x.org/swap/v1/quote?buyToken=WETH&sellToken=DAI&sellAmount=1000000000000000000",
+      "example_response": null
+    },
+    {
+      "name": "1inch",
+      "endpoint": "https://1inch.io/api/",
+      "method": "GET",
+      "description": "API for querying decentralize exchange",
+      "parameters": [],
+      "example_request": "https://api.1inch.io/v5.0/1/tokens",
+      "example_response": null
+    },
+    {
+      "name": "Alchemy Ethereum",
+      "endpoint": "https://docs.alchemy.com/alchemy/",
+      "method": "POST",
+      "description": "Ethereum Node-as-a-Service Provider",
+      "parameters": [],
+      "example_request": "https://eth-mainnet.alchemyapi.io/v2/<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "apilayer coinlayer",
+      "endpoint": "https://coinlayer.com",
+      "method": "GET",
+      "description": "Real-time Crypto Currency Exchange Rates",
+      "parameters": [],
+      "example_request": "https://api.coinlayer.com/api/live?access_key=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Binance",
+      "endpoint": "https://github.com/binance/binance-spot-api-docs",
+      "method": "GET",
+      "description": "Exchange for Trading Cryptocurrencies based in China",
+      "parameters": [],
+      "example_request": "https://api.binance.com/api/v3/ticker/price",
+      "example_response": null
+    },
+    {
+      "name": "Bitcambio",
+      "endpoint": "https://nova.bitcambio.com.br/api/v3/docs#a-public",
+      "method": "GET",
+      "description": "Get the list of all traded assets in the exchange",
+      "parameters": [],
+      "example_request": "https://nova.bitcambio.com.br/api/v3/public/assetpair/prices",
+      "example_response": null
+    },
+    {
+      "name": "BitcoinAverage",
+      "endpoint": "https://apiv2.bitcoinaverage.com/",
+      "method": "GET",
+      "description": "Digital Asset Price Data for the blockchain industry",
+      "parameters": [],
+      "example_request": "https://apiv2.bitcoinaverage.com/indices/global/ticker/all",
+      "example_response": null
+    },
+    {
+      "name": "BitcoinCharts",
+      "endpoint": "https://bitcoincharts.com/about/exchanges/",
+      "method": "GET",
+      "description": "Financial and Technical Data related to the Bitcoin Network",
+      "parameters": [],
+      "example_request": "https://api.bitcoincharts.com/v1/markets.json",
+      "example_response": null
+    },
+    {
+      "name": "Bitfinex",
+      "endpoint": "https://docs.bitfinex.com/docs",
+      "method": "GET",
+      "description": "Cryptocurrency Trading Platform",
+      "parameters": [],
+      "example_request": "https://api-pub.bitfinex.com/v2/ticker/tBTCUSD",
+      "example_response": null
+    },
+    {
+      "name": "Bitmex",
+      "endpoint": "https://www.bitmex.com/app/apiOverview",
+      "method": "GET",
+      "description": "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong",
+      "parameters": [],
+      "example_request": "https://www.bitmex.com/api/v1/instrument",
+      "example_response": null
+    },
+    {
+      "name": "Bittrex",
+      "endpoint": "https://bittrex.github.io/api/v3",
+      "method": "GET",
+      "description": "Next Generation Crypto Trading Platform",
+      "parameters": [],
+      "example_request": "https://api.bittrex.com/v3/markets/tickers",
+      "example_response": null
+    },
+    {
+      "name": "Block",
+      "endpoint": "https://block.io/docs/basic",
+      "method": "GET",
+      "description": "Bitcoin Payment, Wallet & Transaction Data",
+      "parameters": [],
+      "example_request": "https://block.io/api/v2/get_address_balance/?api_key=<API_KEY>&addresses=btc_address",
+      "example_response": null
+    },
+    {
+      "name": "Blockchain",
+      "endpoint": "https://www.blockchain.com/api",
+      "method": "GET",
+      "description": "Bitcoin Payment, Wallet & Transaction Data",
+      "parameters": [],
+      "example_request": "https://blockchain.info/ticker",
+      "example_response": null
+    },
+    {
+      "name": "blockfrost Cardano",
+      "endpoint": "https://blockfrost.io/",
+      "method": "GET",
+      "description": "Interaction with the Cardano mainnet and several testnets",
+      "parameters": [],
+      "example_request": "https://cardano-mainnet.blockfrost.io/api/v0/blocks/latest",
+      "example_response": null
+    },
+    {
+      "name": "Brave NewCoin",
+      "endpoint": "https://bravenewcoin.com/developers",
+      "method": "POST",
+      "description": "Real-time and historic crypto data from more than 200+ exchanges",
+      "parameters": [],
+      "example_request": "https://bravenewcoin.com/api/v1/market-data",
+      "example_response": null
+    },
+    {
+      "name": "BtcTurk",
+      "endpoint": "https://docs.btcturk.com/",
+      "method": "GET",
+      "description": "Real-time cryptocurrency data, graphs and API that allows buy&sell",
+      "parameters": [],
+      "example_request": "https://api.btcturk.com/api/v2/ticker",
+      "example_response": null
+    },
+    {
+      "name": "Bybit",
+      "endpoint": "https://bybit-exchange.github.io/docs/linear/#t-introduction",
+      "method": "GET",
+      "description": "Cryptocurrency data feed and algorithmic trading",
+      "parameters": [],
+      "example_request": "https://api.bybit.com/v2/public/tickers",
+      "example_response": null
+    },
+    {
+      "name": "CoinAPI",
+      "endpoint": "https://docs.coinapi.io/",
+      "method": "GET",
+      "description": "All Currency Exchanges integrate under a single api",
+      "parameters": [],
+      "example_request": "https://rest.coinapi.io/v1/exchanges",
+      "example_response": null
+    },
+    {
+      "name": "Coinbase",
+      "endpoint": "https://developers.coinbase.com",
+      "method": "GET",
+      "description": "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices",
+      "parameters": [],
+      "example_request": "https://api.coinbase.com/v2/prices/BTC-USD/buy",
+      "example_response": null
+    },
+    {
+      "name": "Coinbase Pro",
+      "endpoint": "https://docs.pro.coinbase.com/#api",
+      "method": "GET",
+      "description": "Cryptocurrency Trading Platform",
+      "parameters": [],
+      "example_request": "https://api.pro.coinbase.com/products/BTC-USD/ticker",
+      "example_response": null
+    },
+    {
+      "name": "CoinCap",
+      "endpoint": "https://docs.coincap.io/",
+      "method": "GET",
+      "description": "Real time Cryptocurrency prices through a RESTful API",
+      "parameters": [],
+      "example_request": "https://api.coincap.io/v2/assets",
+      "example_response": null
+    },
+    {
+      "name": "CoinDCX",
+      "endpoint": "https://docs.coindcx.com/",
+      "method": "GET",
+      "description": "Cryptocurrency Trading Platform",
+      "parameters": [],
+      "example_request": "https://api.coindcx.com/exchange/v1/markets",
+      "example_response": null
+    },
+    {
+      "name": "CoinDesk",
+      "endpoint": "https://old.coindesk.com/coindesk-api/",
+      "method": "GET",
+      "description": "CoinDesk's Bitcoin Price Index (BPI) in multiple currencies",
+      "parameters": [],
+      "example_request": "https://api.coindesk.com/v1/bpi/currentprice.json",
+      "example_response": null
+    },
+    {
+      "name": "CoinGecko",
+      "endpoint": "http://www.coingecko.com/api",
+      "method": "GET",
+      "description": "Cryptocurrency Price, Market, and Developer/Social Data",
+      "parameters": [],
+      "example_request": "https://api.coingecko.com/api/v3/coins/list",
+      "example_response": null
+    },
+    {
+      "name": "Coinigy",
+      "endpoint": "https://coinigy.docs.apiary.io",
+      "method": "POST",
+      "description": "Interacting with Coinigy Accounts and Exchange Directly",
+      "parameters": [],
+      "example_request": "https://api.coinigy.com/api/v1/ticker",
+      "example_response": null
+    },
+    {
+      "name": "Coinlib",
+      "endpoint": "https://coinlib.io/apidocs",
+      "method": "GET",
+      "description": "Crypto Currency Prices",
+      "parameters": [],
+      "example_request": "https://coinlib.io/api/v1/global?key=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Coinlore",
+      "endpoint": "https://www.coinlore.com/cryptocurrency-data-api",
+      "method": "GET",
+      "description": "Cryptocurrencies prices, volume and more",
+      "parameters": [],
+      "example_request": "https://api.coinlore.net/api/tickers/",
+      "example_response": null
+    },
+    {
+      "name": "CoinMarketCap",
+      "endpoint": "https://coinmarketcap.com/api/",
+      "method": "GET",
+      "description": "Cryptocurrencies Prices",
+      "parameters": [],
+      "example_request": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
+      "example_response": null
+    },
+    {
+      "name": "Coinpaprika",
+      "endpoint": "https://api.coinpaprika.com",
+      "method": "GET",
+      "description": "Cryptocurrencies prices, volume and more",
+      "parameters": [],
+      "example_request": "https://api.coinpaprika.com/v1/coins",
+      "example_response": null
+    },
+    {
+      "name": "CoinRanking",
+      "endpoint": "https://developers.coinranking.com/api/documentation",
+      "method": "GET",
+      "description": "Live Cryptocurrency data",
+      "parameters": [],
+      "example_request": "https://api.coinranking.com/v2/coins",
+      "example_response": null
+    },
+    {
+      "name": "Coinremitter",
+      "endpoint": "https://coinremitter.com/docs",
+      "method": "POST",
+      "description": "Cryptocurrencies Payment & Prices",
+      "parameters": [],
+      "example_request": "https://coinremitter.com/api/v3/get_prices",
+      "example_response": null
+    },
+    {
+      "name": "CoinStats",
+      "endpoint": "https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest",
+      "method": "GET",
+      "description": "Crypto Tracker",
+      "parameters": [],
+      "example_request": "https://api.coinstats.app/public/v1/coins",
+      "example_response": null
+    },
+    {
+      "name": "CryptAPI",
+      "endpoint": "https://docs.cryptapi.io/",
+      "method": "GET",
+      "description": "Cryptocurrency Payment Processor",
+      "parameters": [],
+      "example_request": "https://api.cryptapi.io/btc/create?callback=<CALLBACK_URL>",
+      "example_response": null
+    },
+    {
+      "name": "CryptingUp",
+      "endpoint": "https://www.cryptingup.com/apidoc/#introduction",
+      "method": "GET",
+      "description": "Cryptocurrency data",
+      "parameters": [],
+      "example_request": "https://api.cryptingup.com/v2/assets",
+      "example_response": null
+    },
+    {
+      "name": "CryptoCompare",
+      "endpoint": "https://www.cryptocompare.com/api#",
+      "method": "GET",
+      "description": "Cryptocurrencies Comparison",
+      "parameters": [],
+      "example_request": "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH&tsyms=USD,EUR",
+      "example_response": null
+    },
+    {
+      "name": "CryptoMarket",
+      "endpoint": "https://api.exchange.cryptomkt.com/",
+      "method": "GET",
+      "description": "Cryptocurrencies Trading platform",
+      "parameters": [],
+      "example_request": "https://api.exchange.cryptomkt.com/api/v1/public/orderbook",
+      "example_response": null
+    },
+    {
+      "name": "Cryptonator",
+      "endpoint": "https://www.cryptonator.com/api/",
+      "method": "GET",
+      "description": "Cryptocurrencies Exchange Rates",
+      "parameters": [],
+      "example_request": "https://api.cryptonator.com/api/ticker/btc-usd",
+      "example_response": null
+    },
+    {
+      "name": "dYdX",
+      "endpoint": "https://docs.dydx.exchange/",
+      "method": "GET",
+      "description": "Decentralized cryptocurrency exchange",
+      "parameters": [],
+      "example_request": "https://api.dydx.exchange/v3/markets",
+      "example_response": null
+    },
+    {
+      "name": "Ethplorer",
+      "endpoint": "https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API",
+      "method": "GET",
+      "description": "Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures",
+      "parameters": [],
+      "example_request": "https://api.ethplorer.io/getAddressInfo/<ADDRESS>?apiKey=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "EXMO",
+      "endpoint": "https://documenter.getpostman.com/view/10287440/SzYXWKPi",
+      "method": "GET",
+      "description": "Cryptocurrencies exchange based in UK",
+      "parameters": [],
+      "example_request": "https://api.exmo.com/v1/ticker",
+      "example_response": null
+    },
+    {
+      "name": "FTX",
+      "endpoint": "https://docs.ftx.com/",
+      "method": "GET",
+      "description": "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs",
+      "parameters": [],
+      "example_request": "https://ftx.com/api/markets",
+      "example_response": null
+    },
+    {
+      "name": "Gateio",
+      "endpoint": "https://www.gate.io/api2",
+      "method": "GET",
+      "description": "API provides spot, margin and futures trading operations",
+      "parameters": [],
+      "example_request": "https://api.gateio.ws/api/v4/spot/currencies",
+      "example_response": null
+    },
+    {
+      "name": "Gemini",
+      "endpoint": "https://docs.gemini.com/rest-api/",
+      "method": "GET",
+      "description": "Cryptocurrencies Exchange",
+      "parameters": [],
+      "example_request": "https://api.gemini.com/v1/pubticker/btcusd",
+      "example_response": null
+    },
+    {
+      "name": "Hirak Exchange Rates",
+      "endpoint": "https://rates.hirak.site/",
+      "method": "GET",
+      "description": "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits",
+      "parameters": [],
+      "example_request": "https://rates.hirak.site/api/v1/rates/USD",
+      "example_response": null
+    },
+    {
+      "name": "Huobi",
+      "endpoint": "https://huobiapi.github.io/docs/spot/v1/en/",
+      "method": "GET",
+      "description": "Seychelles based cryptocurrency exchange",
+      "parameters": [],
+      "example_request": "https://api.huobi.pro/market/history/kline",
+      "example_response": null
+    },
+    {
+      "name": "icy.tools",
+      "endpoint": "https://developers.icy.tools/",
+      "method": "POST",
+      "description": "GraphQL based NFT API",
+      "parameters": [],
+      "example_request": "https://graphql.icy.tools/graphql",
+      "example_response": null
+    },
+    {
+      "name": "Indodax",
+      "endpoint": "https://github.com/btcid/indodax-official-api-docs",
+      "method": "GET",
+      "description": "Trade your Bitcoin and other assets with rupiah",
+      "parameters": [],
+      "example_request": "https://indodax.com/api/trade_history/btc_idr",
+      "example_response": null
+    },
+    {
+      "name": "INFURA Ethereum",
+      "endpoint": "https://infura.io/product/ethereum",
+      "method": "POST",
+      "description": "Interaction with the Ethereum mainnet and several testnets",
+      "parameters": [],
+      "example_request": "https://mainnet.infura.io/v3/<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "Kraken",
+      "endpoint": "https://docs.kraken.com/rest/",
+      "method": "GET",
+      "description": "Cryptocurrencies Exchange",
+      "parameters": [],
+      "example_request": "https://api.kraken.com/0/public/AssetPairs",
+      "example_response": null
+    },
+    {
+      "name": "KuCoin",
+      "endpoint": "https://docs.kucoin.com/",
+      "method": "GET",
+      "description": "Cryptocurrency Trading Platform",
+      "parameters": [],
+      "example_request": "https://api.kucoin.com/api/v1/market/allTickers",
+      "example_response": null
+    },
+    {
+      "name": "Localbitcoins",
+      "endpoint": "https://localbitcoins.com/api-docs/",
+      "method": "GET",
+      "description": "P2P platform to buy and sell Bitcoins",
+      "parameters": [],
+      "example_request": "https://localbitcoins.com/api/ticker/",
+      "example_response": null
+    },
+    {
+      "name": "Mempool",
+      "endpoint": "https://mempool.space/api",
+      "method": "GET",
+      "description": "Bitcoin API Service focusing on the transaction fee",
+      "parameters": [],
+      "example_request": "https://mempool.space/api/v1/lightning/nodes/count",
+      "example_response": null
+    },
+    {
+      "name": "MercadoBitcoin",
+      "endpoint": "https://www.mercadobitcoin.com.br/api-doc/",
+      "method": "GET",
+      "description": "Brazilian Cryptocurrency Information",
+      "parameters": [],
+      "example_request": "https://www.mercadobitcoin.net/api/BTC/ticker/",
+      "example_response": null
+    },
+    {
+      "name": "Messari",
+      "endpoint": "https://messari.io/api",
+      "method": "GET",
+      "description": "Provides API endpoints for thousands of crypto assets",
+      "parameters": [],
+      "example_request": "https://data.messari.io/api/v1/assets",
+      "example_response": null
+    },
+    {
+      "name": "Nexchange",
+      "endpoint": "https://nexchange2.docs.apiary.io/",
+      "method": "GET",
+      "description": "Automated cryptocurrency exchange service",
+      "parameters": [],
+      "example_request": "https://api.nexchange.io/en/api/v1/pair/",
+      "example_response": null
+    },
+    {
+      "name": "Nomics",
+      "endpoint": "https://nomics.com/docs/",
+      "method": "GET",
+      "description": "Historical and realtime cryptocurrency prices and market data",
+      "parameters": [],
+      "example_request": "https://api.nomics.com/v1/currencies/ticker?key=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "NovaDax",
+      "endpoint": "https://doc.novadax.com/en-US/#introduction",
+      "method": "GET",
+      "description": "NovaDAX API to access all market data, trading management endpoints",
+      "parameters": [],
+      "example_request": "https://api.novadax.com/v1/common/symbols",
+      "example_response": null
+    },
+    {
+      "name": "OKEx",
+      "endpoint": "https://www.okex.com/docs/",
+      "method": "GET",
+      "description": "Cryptocurrency exchange based in Seychelles",
+      "parameters": [],
+      "example_request": "https://www.okex.com/api/v5/public/instruments",
+      "example_response": null
+    },
+    {
+      "name": "Poloniex",
+      "endpoint": "https://docs.poloniex.com",
+      "method": "GET",
+      "description": "US based digital asset exchange",
+      "parameters": [],
+      "example_request": "https://api.poloniex.com/markets",
+      "example_response": null
+    },
+    {
+      "name": "Solana JSON RPC",
+      "endpoint": "https://docs.solana.com/developing/clients/jsonrpc-api",
+      "method": "POST",
+      "description": "Provides various endpoints to interact with the Solana Blockchain",
+      "parameters": [],
+      "example_request": "https://api.mainnet-beta.solana.com/",
+      "example_response": null
+    },
+    {
+      "name": "Technical Analysis",
+      "endpoint": "https://technical-analysis-api.com",
+      "method": "GET",
+      "description": "Cryptocurrency prices and technical analysis",
+      "parameters": [],
+      "example_request": "https://technical-analysis-api.com/api/v1/coin/btc/price",
+      "example_response": null
+    },
+    {
+      "name": "VALR",
+      "endpoint": "https://docs.valr.com/",
+      "method": "GET",
+      "description": "Cryptocurrency Exchange based in South Africa",
+      "parameters": [],
+      "example_request": "https://api.valr.com/v1/public/currencies",
+      "example_response": null
+    },
+    {
+      "name": "WorldCoinIndex",
+      "endpoint": "https://www.worldcoinindex.com/apiservice",
+      "method": "GET",
+      "description": "Cryptocurrencies Prices",
+      "parameters": [],
+      "example_request": "https://www.worldcoinindex.com/api/v1/json?key=<API_KEY>",
+      "example_response": null
+    },
+    {
+      "name": "ZMOK",
+      "endpoint": "https://zmok.io",
+      "method": "POST",
+      "description": "Ethereum JSON RPC API and Web3 provider",
+      "parameters": [],
+      "example_request": "https://api.zmok.io/v1/mainnet/eth_blockNumber",
+      "example_response": null
+    }
+  ]
+}
