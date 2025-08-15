@@ -6,7 +6,7 @@ A **Next.js 14** app that serves as a curated directory of free public APIs. Exp
 
 ## Demo
 
-Demo Link [PublicAPIs Link]()
+Demo Link [PublicAPIs Link](https://public-apis-amber.vercel.app)
 
 ---
 
