@@ -7,16 +7,35 @@ import apiData from "../data/public-apis.json"; // Import JSON
 
 export default function Home() {
   const [search, setSearch] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
 
   const apis: ApiItem[] = (apiData as any).apis || [];
 
-  const filteredApis = apis
-    .filter(
-      (api) =>
-        api.name.toLowerCase().includes(search.toLowerCase()) ||
-        api.description.toLowerCase().includes(search.toLowerCase())
-    )
-    .slice(0, 12); // display maximum 12 APIs
+  const itemsPerPage = 12;
+  const filteredApis = apis.filter(
+    (api) =>
+      api.name.toLowerCase().includes(search.toLowerCase()) ||
+      api.description.toLowerCase().includes(search.toLowerCase())
+  );
+
+  const totalPages = Math.ceil(filteredApis.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const currentApis = filteredApis.slice(startIndex, startIndex + itemsPerPage);
+
+  const toTop = () => {
+    const el = document.getElementById("main-content");
+    if (el) {
+      el.scrollIntoView({behavior : "smooth"})
+    }
+  };
+  
+  const handlePrev = () => {
+    setCurrentPage((prev) => Math.max(prev - 1, 1));
+  };
+
+  const handleNext = () => {
+    setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+  };
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-950">
@@ -25,12 +44,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/">
-              <h1 className="text-2xl font-['Pacifico'] text-blue-600 dark:text-blue-400">
+              <h1 className="text-2xl font-['Pacifico'] text-green-600 dark:text-green-400">
                 PublicAPIs
               </h1>
             </Link>
             <Link href="#main-content">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-6 py-2 rounded-lg font-medium transition-colors text-sm sm:text-base">
+              <button className="bg-green-600 hover:bg-green-700 text-white px-4 sm:px-6 py-2 rounded-lg font-medium transition-colors text-sm sm:text-base">
                 View APIs
               </button>
             </Link>
@@ -94,11 +113,14 @@ export default function Home() {
           placeholder="Search APIs..."
           className="w-full p-2 sm:p-3 border rounded-lg mb-4 dark:bg-gray-800 dark:text-white text-sm sm:text-base"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            setCurrentPage(1); // reset to first page when searching
+          }}
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 p-4 sm:p-6">
-          {filteredApis.map((api) => (
+          {currentApis.map((api) => (
             <div
               key={api.name}
               className="border rounded-lg p-4 sm:p-6 shadow-sm hover:shadow-lg transition-shadow duration-200 bg-white dark:bg-gray-800"
@@ -113,7 +135,7 @@ export default function Home() {
                 <a
                   href={api.endpoint}
                   target="_blank"
-                  className="text-blue-500 hover:underline ml-1 break-all"
+                  className="text-green-500 hover:underline ml-1 break-all"
                   rel="noopener noreferrer"
                 >
                   {api.endpoint}
@@ -130,12 +152,41 @@ export default function Home() {
             </div>
           ))}
 
-          {filteredApis.length === 0 && (
+          {currentApis.length === 0 && (
             <p className="col-span-full text-gray-500 dark:text-gray-400 text-center">
               No APIs found.
             </p>
           )}
         </div>
+
+        {/* Pagination Controls */}
+        {filteredApis.length > itemsPerPage && (
+          <div className="flex justify-center items-center gap-4 mt-6">
+            <button
+              onClick={() => {
+                handlePrev(); 
+                toTop();
+              }}
+              disabled={currentPage === 1}
+              className="px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-300 dark:hover:bg-green-600"
+            >
+              Previous
+            </button>
+            <span className="text-gray-700 dark:text-gray-300 text-sm sm:text-base">
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              onClick={() => {
+                handleNext(); 
+                toTop();
+              }}
+              disabled={currentPage === totalPages}
+              className="px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-300 dark:hover:bg-green-600"
+            >
+              Next
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Footer Section */}
